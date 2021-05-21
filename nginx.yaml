@@ -1,12 +1,13 @@
 ---
-apiVersion: V1
-kind: pod
-metada:
-        Name: nginx
-        labels:
-                app: nginx
-spec:
+apiVersion: v1
+kind: Pod
+metadata: 
+        name: myappPod
+        labels: 
+                app: myapp
+spec: 
         containers:
-        - name: nginx
-          image: nginx
+          - name: nginx
+            image: nginx
+
        
