@@ -26,3 +26,5 @@ monster = Monster(10,50)
 monster.attack("Sajan",37,"good")
 monster.move(80) 
 
+print("Hello")
+
