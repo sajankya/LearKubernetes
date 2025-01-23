@@ -28,3 +28,5 @@ if __name__ == "__main__":
     # Get a unique number
     unique_number = counter.get_unique_number()
     print(f"Unique Number: {unique_number}")
+
+    
